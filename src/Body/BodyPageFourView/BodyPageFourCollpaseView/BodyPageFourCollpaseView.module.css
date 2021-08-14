@@ -1,0 +1,51 @@
+.collapseOuterDiv {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: hsl(231, 10%, 86%);
+    
+}
+
+.collapseInnerDiv {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.collapseInnerDiv:hover {
+    cursor: pointer;
+}
+
+.collapseQuestionDiv {
+    flex-basis: 95%;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.collapseQuestionDiv:hover {
+    cursor: pointer;
+    color: hsl(0, 94%, 66%);
+}
+
+.collapseArrowDiv {
+    flex-basis: 5%;
+    padding-left: 5px;
+
+}
+
+.collapseQuesDetailDiv {
+    line-height: 2.2;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.collapseArrowUp svg {
+    color: hsl(0, 94%, 66%);
+}

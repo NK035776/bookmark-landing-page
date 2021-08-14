@@ -1,0 +1,504 @@
+.bodyPageTwoViewOuterDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bodyPageTwoViewCol1 {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bodyPageTwoViewCol1OutDiv {
+    display: flex;
+    display: flex;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 80px;
+    width: 55%;
+}
+
+.bodyPageTwoViewCol1UnderLine {
+    height: 1.8px;
+    background-color: hsl(225, 10%, 92%);
+    width: 55%;
+}
+
+.bodyPageTwoViewCol1Div1 {
+    width: 100%;
+    color: hsl(229, 8%, 60%);
+    max-width:  250px;
+    height: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: hsl(225, 10%, 92%);
+}
+
+.bodyPageTwoViewCol1Div1:hover {
+    cursor: pointer;
+}
+
+.bodyPageTwoViewCol1Div1Selected {
+    width: 100%;
+    color: black;
+    max-width:  250px;
+    height: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+    border-style: solid;
+    border-width: 0 0 4px 0;
+    border-color: hsl(0, 94%, 66%);
+}
+
+.bodyPageTwoViewCol1Div1Selected:hover {
+    cursor: pointer;
+}
+
+.bodyPageTwoViewCol1Div2Selected {
+    width: 100%;
+    color: hsl(229, 8%, 60%);
+    max-width:  250px;
+    height: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: hsl(225, 10%, 92%);
+}
+
+.bodyPageTwoViewCol1Div2Selected:hover {
+    cursor: pointer;
+}
+
+
+.bodyPageTwoViewCol1Div2 {
+    width: 100%;
+    color: hsl(229, 8%, 60%);
+    max-width:  250px;
+    height: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: hsl(225, 10%, 92%);
+}
+
+.bodyPageTwoViewCol1Div2:hover {
+    cursor: pointer;
+    color: hsl(0, 94%, 66%);
+}
+
+.bodyPageTwoViewCol1Div2Selected {
+    width: 100%;
+    color: black;
+    max-width:  250px;
+    height: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+    border-style: solid;
+    border-width: 0 0 4px 0;
+    border-color: hsl(0, 94%, 66%);
+}
+
+.bodyPageTwoViewCol1Div2Selected:hover {
+    cursor: pointer;
+}
+
+.bodyPageTwoViewCol1Div3 {
+    width: 100%;
+    color: hsl(229, 8%, 60%);
+    max-width:  250px;
+    height: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: hsl(225, 10%, 92%);
+
+}
+
+.bodyPageTwoViewCol1Div3:hover {
+    cursor: pointer;
+    color: hsl(0, 94%, 66%);
+}
+
+.bodyPageTwoViewCol1Div3Selected {
+    width: 100%;
+    color: black;
+    max-width:  250px;
+    height: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+    border-style: solid;
+    border-width: 0 0 4px 0;
+    border-color: hsl(0, 94%, 66%);
+
+}
+
+.bodyPageTwoViewCol1Div3Selected:hover {
+    cursor: pointer;
+}
+
+.bodyPageTwoViewCol2 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding-top: 5%;
+    align-items: center;
+
+}
+
+.bodyPageTwoViewCol2Row1 {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodyPageTwoViewCol2Row2 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    height: 100%;
+    padding-right: 4%;
+}
+
+.bodyPageTwoViewCol2Row2Col1 {
+    height: 100%;
+    flex: 1;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 15px;
+    padding-left: 0px;
+}
+
+.bodyPageTwoViewCol2Row2Col2 {
+    height: 100%;
+    flex: 3;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bodyPageTwoViewCol2Row2Col3 {
+    flex: 1;
+    background-color: hsl(231, 69%, 60%);
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
+  min-width: 150px;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border: 2px solid hsl(231, 69%, 60%);
+  min-height: 50px;
+
+}
+
+.bodyPageTwoViewCol2Row2Col3:hover {
+    color: hsl(231, 69%, 60%);
+    background-color: white;
+}
+
+.bodyPageTwoViewCol3 {
+    text-align: center;
+    flex: 1;
+    padding: 2.5%;
+    text-align: center;
+
+}
+
+.bodyPageTwoViewCol3Row1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 1.8%;
+}
+
+.bodyPageTwoViewCol3Row2 {
+    padding: 0.5%;
+    padding-left: 32%;
+    padding-right: 32%;
+    color: hsl(229, 8%, 60%);
+
+}
+
+
+@media only screen and (max-width: 375px) {
+
+    .bodyPageTwoViewOuterDiv {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    .bodyPageTwoViewCol1 {
+        display: flex;
+        width: 100%;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 80px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .bodyPageTwoViewCol1OutDiv {
+        display: flex;
+        width: 80%;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 180px;
+        padding-right: 0.8rem;
+    }
+    
+    .bodyPageTwoViewCol1UnderLine {
+        height: 1.8px;
+        background-color: hsl(225, 10%, 92%);
+        width: 55%;
+    }
+    
+    .bodyPageTwoViewCol1Div1 {
+        width: 100%;
+        color: hsl(229, 8%, 60%);
+        max-width:  250px;
+        height: 100%;
+        font-weight: bold;
+        font-size: 18px;
+        background-color: white;
+        border-style: solid;
+        border-width: 0 0 2px 0;
+        border-color: hsl(225, 10%, 92%);
+    }
+    
+    .bodyPageTwoViewCol1Div1:hover {
+        cursor: pointer;
+    }
+    
+    .bodyPageTwoViewCol1Div1Selected {
+        width: 100%;
+        color: black;
+        max-width:  250px;
+        height: 100%;
+        font-weight: bold;
+        font-size: 18px;
+        background-color: white;
+        border-style: solid;
+        border-width: 0 0 4px 0;
+        border-color: hsl(0, 94%, 66%);
+    }
+    
+    .bodyPageTwoViewCol1Div1Selected:hover {
+        cursor: pointer;
+    }
+    
+    .bodyPageTwoViewCol1Div2Selected {
+        width: 100%;
+        color: hsl(229, 8%, 60%);
+        max-width:  250px;
+        height: 100%;
+        font-weight: bold;
+        font-size: 18px;
+        background-color: white;
+        border-style: solid;
+        border-width: 0 0 2px 0;
+        border-color: hsl(225, 10%, 92%);
+    }
+    
+    .bodyPageTwoViewCol1Div2Selected:hover {
+        cursor: pointer;
+    }
+    
+    
+    .bodyPageTwoViewCol1Div2 {
+        width: 100%;
+        color: hsl(229, 8%, 60%);
+        max-width:  250px;
+        height: 100%;
+        font-weight: bold;
+        font-size: 18px;
+        background-color: white;
+        border-style: solid;
+        border-width: 0 0 2px 0;
+        border-color: hsl(225, 10%, 92%);
+    }
+    
+    .bodyPageTwoViewCol1Div2:hover {
+        cursor: pointer;
+        color: hsl(0, 94%, 66%);
+    }
+    
+    .bodyPageTwoViewCol1Div2Selected {
+        width: 100%;
+        color: black;
+        max-width:  250px;
+        height: 100%;
+        font-weight: bold;
+        font-size: 18px;
+        background-color: white;
+        border-style: solid;
+        border-width: 0 0 4px 0;
+        border-color: hsl(0, 94%, 66%);
+    }
+    
+    .bodyPageTwoViewCol1Div2Selected:hover {
+        cursor: pointer;
+    }
+    
+    .bodyPageTwoViewCol1Div3 {
+        width: 100%;
+        color: hsl(229, 8%, 60%);
+        max-width:  250px;
+        height: 100%;
+        font-weight: bold;
+        font-size: 18px;
+        background-color: white;
+        border-style: solid;
+        border-width: 0 0 2px 0;
+        border-color: hsl(225, 10%, 92%);
+    
+    }
+    
+    .bodyPageTwoViewCol1Div3:hover {
+        cursor: pointer;
+        color: hsl(0, 94%, 66%);
+    }
+    
+    .bodyPageTwoViewCol1Div3Selected {
+        width: 100%;
+        color: black;
+        max-width:  250px;
+        height: 100%;
+        font-weight: bold;
+        font-size: 18px;
+        background-color: white;
+        border-style: solid;
+        border-width: 0 0 4px 0;
+        border-color: hsl(0, 94%, 66%);
+    
+    }
+    
+    .bodyPageTwoViewCol1Div3Selected:hover {
+        cursor: pointer;
+    }
+    
+    .bodyPageTwoViewCol2 {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        padding-top: 5%;
+        align-items: center;
+    
+    }
+    
+    .bodyPageTwoViewCol2Row1 {
+        flex: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .bodyPageTwoViewCol2Row2 {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        height: 100%;
+        padding-right: 4%;
+    }
+    
+    .bodyPageTwoViewCol2Row2Col1 {
+        height: 100%;
+        flex: 1;
+        font-size: 40px;
+        font-weight: bold;
+        padding: 15px;
+        padding-left: 0px;
+    }
+    
+    .bodyPageTwoViewCol2Row2Col2 {
+        height: 100%;
+        flex: 3;
+        font-size: 18px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .bodyPageTwoViewCol2Row2Col3 {
+        flex: 1;
+        background-color: hsl(231, 69%, 60%);
+      color: white;
+      font-size: 14px;
+      cursor: pointer;
+      border-radius: 8px;
+      padding-left: 4px;
+      padding-right: 4px;
+      min-width: 150px;
+      font-weight: bold;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+      border: 2px solid hsl(231, 69%, 60%);
+      min-height: 50px;
+    
+    }
+    
+    .bodyPageTwoViewCol2Row2Col3:hover {
+        color: hsl(231, 69%, 60%);
+        background-color: white;
+    }
+    
+    .bodyPageTwoViewCol3 {
+        text-align: center;
+        flex: 1;
+        padding: 2.5%;
+        text-align: center;
+    
+    }
+    
+    .bodyPageTwoViewCol3Row1 {
+        font-size: 30px;
+        font-weight: bold;
+        padding: 1.8%;
+    }
+    
+    .bodyPageTwoViewCol3Row2 {
+        padding: 0.5%;
+        padding-left: 32%;
+        padding-right: 32%;
+        color: hsl(229, 8%, 60%);
+    
+    }
+
+}

@@ -1,0 +1,69 @@
+.bodyPageThreeViewCardViewOuterDiv {
+    height: 380px;
+    width: 280px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.bodyPageThreeViewCardViewIconRow1 {
+    flex: 4;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 260px;
+    max-height: 260px;
+}
+
+.bodyPageThreeViewCardViewIconRow1Icon {
+    padding: 1%;
+    padding-top: 12%;
+    min-height: 150px;
+}
+
+.bodyPageThreeViewCardViewIconRow1TextBold {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+.bodyPageThreeViewCardViewIconRow1TextLow {
+    font-size: 15px;
+    color: hsl(229, 8%, 60%);
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+
+.bodyPageThreeViewCardViewButtonDiv {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, hsl(229, 8%, 60%) 10%, rgba(255, 255, 255, 0) 0%);
+    background-position: top;
+    background-size: 13px 3px;
+    background-repeat: repeat-x;
+}
+
+.bodyPageThreeViewCardViewButton {
+    min-width: 200px;
+    min-height: 45px;
+    border-radius: 10px;
+    background-color: hsl(231, 69%, 60%);
+    border-style: solid;
+    border-color: hsl(231, 69%, 60%);
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.bodyPageThreeViewCardViewButton:hover {
+    background-color: white;
+    color: hsl(231, 69%, 60%);
+}

@@ -1,0 +1,82 @@
+.headerDiv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 120px;
+    justify-content: center;
+}
+
+.HeaderInnerDiv {
+    display: flex;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.headerLeftDiv {
+    padding: 25px;
+
+}
+
+
+.headerRightDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.headerUl {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.headerIl {
+    list-style: none;
+    flex: 1;
+    max-width: 140px;
+    text-align: center;
+    min-height: 30px;
+    padding-top: 12px;
+}
+
+/* .headerIl:nth-child(4) {
+    border-style: solid;
+    border-color: hsl(0, 94%, 66%);
+    color: white;
+    background-color: hsl(0, 94%, 66%);
+    padding-top: 12px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+} */
+
+.headerIlLogin {
+    list-style: none;
+    flex: 1;
+    max-width: 140px;
+    text-align: center;
+    min-height: 30px;
+    padding-top: 12px;
+    border-style: solid;
+    border-color: hsl(0, 94%, 66%);
+    color: white;
+    background-color: hsl(0, 94%, 66%);
+    padding-top: 12px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.headerIlLogin:hover {
+    cursor: pointer;
+    color: hsl(0, 94%, 66%);
+    background-color: white;
+}
+
+
+.headerIl:hover {
+    cursor: pointer;
+    color: hsl(0, 94%, 66%);
+}
+

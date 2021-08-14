@@ -1,0 +1,127 @@
+.bodyPageFourViewOuterDiv {
+    display: flex;;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bodyPageFourViewRow1Div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+    background-color: hsl(231, 69%, 60%);
+    align-items: center;
+}
+
+.bodyPageFourViewRow1Row1 {
+    color: white;
+    padding: 2%;
+}
+
+.bodyPageFourViewRow1Row2 {
+    width: 40%;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    padding: 2%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.bodyPageFourViewRow1Row3 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-bottom: 5%;
+}
+
+.bodyPageFourViewRow1Row3BtnDiv {
+    height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    border-style: none;
+    width: 150px;
+    background-color: hsl(0, 94%, 66%);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border: 2px solid hsl(0, 94%, 66%);
+}
+
+.bodyPageFourViewRow1Row3TextDiv {
+    position: relative;
+}
+
+.bodyPageFourViewRow1Row3TextError {
+    resize: none;
+    height: 50px;
+    width: 350px;
+    padding-left: 20px;
+    font-style: inherit;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-style: none;
+    border-width: 5px;
+    outline: none;
+    border-style: solid;
+    border-color: hsl(0, 94%, 66%);
+    border-bottom-width: 0px;
+}
+
+.bodyPageFourViewRow1Row3Text {
+    resize: none;
+    height: 50px;
+    width: 350px;
+    padding-left: 20px;
+    font-style: inherit;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+}
+
+.bodyPageFourViewRow1Row3ErrorIcon {
+    position:absolute;
+    right:8px;
+    top:15px;
+}
+
+.bodyPageFourViewRow1Row3ErrorBanner {
+    padding-left: 20px;
+    font-size: 10px;
+    padding-top: 5px;
+    background-color: hsl(0, 94%, 66%);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-style: italic;
+    color: white;
+    padding-bottom: 2px;
+}
+
+.bodyPageFourViewRow1Row3Text::-webkit-input-placeholder {
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .bodyPageFourViewRow1Row3Text:-ms-input-placeholder {
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .bodyPageFourViewRow1Row3Text:-moz-placeholder {
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .bodyPageFourViewRow1Row3Text::-moz-placeholder {
+    font-family: 'Rubik', sans-serif;
+  }
+
+.bodyPageFourViewRow1Row3BtnDiv:hover {
+    cursor: pointer;
+    color:hsl(0, 94%, 66%);
+    background-color: white;
+}
+
+.bodyPageFourViewRow2Div {
+    flex-basis: 20%;
+    background-color: hsl(229, 31%, 21%);
+}
